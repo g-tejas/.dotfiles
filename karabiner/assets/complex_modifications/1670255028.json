@@ -1,0 +1,1 @@
+{"title":"Right Cmd → Hyper Key (⌃⌥⇧⌘)","rules":[{"description":"Right Cmd → Hyper Key (⌃⌥⇧⌘)","manipulators":[{"from":{"key_code":"right_gui","modifiers":{"optional":["caps_lock"]}},"to":[{"key_code":"left_shift","modifiers":["left_command","left_control","left_option"]}],"type":"basic"}]}]}
