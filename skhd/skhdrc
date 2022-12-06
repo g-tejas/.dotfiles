@@ -46,7 +46,7 @@ hyper - d : yabai -m space --destroy; \
 
 # ====== Window Manipulation ======
 # Equalize size of windows
-hyper - r : yabai -m space --balance
+hyper - e : yabai -m space --balance
 
 # Float / Unfloat windows
 hyper - space : yabai -m window --toggle float; \
@@ -54,3 +54,4 @@ hyper - space : yabai -m window --toggle float; \
 
 # Make window native full screen
 hyper - z : yabai -m window --toggle zoom-fullscreen
+hyper - x : yabai -m window --toggle native-fullscreen
