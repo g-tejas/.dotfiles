@@ -45,6 +45,8 @@ set -g fish_pager_color_selected_background --background=$selection
 # aliases
 alias vi "nvim"
 alias la "ls -A"
+alias venv "virtualenv"
+alias activate "source env/bin/activate.fish"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
