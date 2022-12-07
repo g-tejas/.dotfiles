@@ -81,6 +81,9 @@ cmd + shift - down : yabai -m window --warp south
 cmd + shift - up : yabai -m window --warp north
 cmd + shift - right : yabai -m window --warp east
 
+# Rotate windows clockwise and anticlockwise
+cmd + shift - r : yabai -m space --rotate 270
+
 # Send window to space
 cmd + shift - tab : yabai -m window --space recent
 cmd + shift - 1 : yabai -m window --space 1
@@ -93,4 +96,9 @@ cmd + shift - 7 : yabai -m window --space 7
 cmd + shift - 8 : yabai -m window --space 8
 cmd + shift - 9 : yabai -m window --space 9
 
-
+# Not working as of now
+#hyper + shift - tab : yabai -m window --space recent; yabai -m space --focus recent
+#hyper + shift - h : yabai -m window --space prev; yabai -m space --focus prev
+#hyper + shift - left : yabai -m window --space prev; yabai -m space --focus prev
+#hyper + shift - l : yabai -m window --space next; yabai -m space --focus next
+#hyper + shift - right : yabai -m window --space next; yabai -m space --focus next

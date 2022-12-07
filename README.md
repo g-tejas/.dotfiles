@@ -37,6 +37,8 @@ hyper - x : Makes the window natively fullscreen
 cmd - {h, j, k, l} : Changes window focus to west, south, north, east respectively.
 cmd - {left, down, up, right} : Does the same thing as above.
 
+cmd + shift - r : Rotates windows clockwise
+
 cmd + shift - {h, j, k, l} : Shifts window relatively
 cmd + shift - {left, down, up, right} : Does the same thing as above
 
