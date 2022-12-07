@@ -1,5 +1,5 @@
 # ====== Session Defaults ======
-:: default : yabai -m config active_window_border_color 0xE032CD32
+:: default : yabai -m config active_window_border_color 0xFF88C0D0 # 0xE032CD32
 # cmd - escape : pmset displaysleepnow
 
 # ====== Launch Commands ======
@@ -25,6 +25,9 @@ resize < right : yabai -m window --resize left:50:0; \
 
 # === Space Manipulation ===
 # Space focus and creation
+hyper - tab : yabai -m space --focus recent 
+hyper - h : yabai -m space --focus prev
+hyper - l : yabai -m space --focus next
 hyper - 1 : yabai -m space --focus 1
 hyper - 2 : yabai -m space --focus 2
 hyper - 3 : yabai -m space --focus 3
@@ -55,3 +58,39 @@ hyper - space : yabai -m window --toggle float; \
 # Make window native full screen
 hyper - z : yabai -m window --toggle zoom-fullscreen
 hyper - x : yabai -m window --toggle native-fullscreen
+
+# Window Focus
+cmd - h : yabai -m window --focus west
+cmd - j : yabai -m window --focus south
+cmd - k : yabai -m window --focus north
+cmd - l : yabai -m window --focus east
+
+cmd - left : yabai -m window --focus west
+cmd - down : yabai -m window --focus south
+cmd - up : yabai -m window --focus north
+cmd - right : yabai -m window --focus east
+
+# Move window relatively
+cmd + shift - h : yabai -m window --warp west
+cmd + shift - j : yabai -m window --warp south
+cmd + shift - k : yabai -m window --warp north
+cmd + shift - l : yabai -m window --warp east
+
+cmd + shift - left : yabai -m window --warp west
+cmd + shift - down : yabai -m window --warp south
+cmd + shift - up : yabai -m window --warp north
+cmd + shift - right : yabai -m window --warp east
+
+# Send window to space
+cmd + shift - tab : yabai -m window --space recent
+cmd + shift - 1 : yabai -m window --space 1
+cmd + shift - 2 : yabai -m window --space 2
+cmd + shift - 3 : yabai -m window --space 3
+cmd + shift - 4 : yabai -m window --space 4
+cmd + shift - 5 : yabai -m window --space 5
+cmd + shift - 6 : yabai -m window --space 6
+cmd + shift - 7 : yabai -m window --space 7
+cmd + shift - 8 : yabai -m window --space 8
+cmd + shift - 9 : yabai -m window --space 9
+
+
