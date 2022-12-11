@@ -85,6 +85,7 @@ cmd + shift - right : yabai -m window --warp east
 cmd + shift - r : yabai -m space --rotate 270
 
 # Send window to space
+# The problem is that this interferes with my screenshot/video shortcuts
 cmd + shift - tab : yabai -m window --space recent
 cmd + shift - 1 : yabai -m window --space 1
 cmd + shift - 2 : yabai -m window --space 2

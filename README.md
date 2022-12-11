@@ -45,3 +45,15 @@ cmd + shift - {left, down, up, right} : Does the same thing as above
 cmd + shift - [1..9] : Sends currently focused window to another space
 cmd + shift - tab : Sends currently focused window to second most recent space.
 ```
+
+## Vim Shortcuts
+```
+leader = " "
+
+<leader>pv : Opens netrw
+
+<leader>ff : Opens telescope
+<leader>fg : Live grep
+<leader> fb : Opens buffers
+<leader> fh : Opens help tags
+```
