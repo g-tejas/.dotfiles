@@ -2,6 +2,7 @@ set fish_greeting "morning slut"
 fish_vi_key_bindings
 
 set -gx PATH /usr/local/bin/ $PATH
+set PATH $HOME/.cargo/bin $PATH
 set -gx EDITOR nvim
 
 # Tokyonight theme

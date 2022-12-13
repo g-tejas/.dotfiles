@@ -8,3 +8,7 @@ require("mason-lspconfig").setup()
 -- require("lspconfig").sumneko_lua.setup {}
 -- require("lspconfig").rust_analyzer.setup {}
 -- ...
+
+vim.g.netrw_browse_split = 0
+vim.g.netrw_banner = 0
+vim.g.netrw_winsize = 25
