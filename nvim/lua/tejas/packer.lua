@@ -6,13 +6,13 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
     use 'wbthomason/packer.nvim'
-
+    
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
     
- 
+    -- Treesitter stuff
     use {
         'nvim-treesitter/nvim-treesitter',
         run = function()
@@ -20,8 +20,12 @@ return require('packer').startup(function(use)
             ts_update()
         end,
     }
+    use('nvim-treesitter/playground')
     use('mbbill/undotree')
-
+    use('theprimeagen/harpoon')
+    use('tpope/vim-fugitive')
+   
+    -- LSP
     use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  requires = {
@@ -44,4 +48,3 @@ return require('packer').startup(function(use)
 	  }
   }
 end)
-

@@ -1,6 +1,10 @@
-require("tejas.set")
-require("tejas.packer")
+-- New config
 require("tejas.remap")
+require("tejas.set")
+
+-- Old config
+require("tejas.remap")
+require("tejas.packer")
 require("mason").setup()
 require("mason-lspconfig").setup()
 
