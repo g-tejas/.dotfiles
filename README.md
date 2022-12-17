@@ -66,3 +66,34 @@ leader = " "
 # UndoTree
 <leader>u : Toggles UndoTree
 ```
+
+
+## HomeBrew
+```
+# C++ Stuff
+conan
+gcc
+coreutils
+ninja
+
+# Python Stuff
+virtualenv
+
+# Vim Stuff
+fd
+neovim
+
+# Terminal Stuff
+fish
+ripgrep
+tree
+
+# Git Stuff
+gh
+jesseduffield/lazygit/lazygit
+
+# i3wm Setup
+felixkratz/formulae/sketchybar
+koekeishiya/formulae/skhd
+koekeishiya/formulae/yabai
+```
