@@ -4,7 +4,7 @@ fish_vi_key_bindings
 set -gx PATH /usr/local/bin/ $PATH
 set PATH $HOME/.cargo/bin $PATH
 set PATH /Applications/CMake.app/Contents/bin $PATH
-
+# set NVM_DIR /Users/tejas/.nvm/ $PATH
 set -gx EDITOR nvim
 
 # Tokyonight theme

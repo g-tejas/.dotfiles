@@ -23,7 +23,7 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/playground')
     use('mbbill/undotree')
     use('theprimeagen/harpoon')
-    use('tpope/vim-fugitive')
+    -- use('tpope/vim-fugitive') Using lazygit instead
    
     -- LSP
     use {

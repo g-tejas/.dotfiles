@@ -50,10 +50,19 @@ cmd + shift - tab : Sends currently focused window to second most recent space.
 ```
 leader = " "
 
-<leader>pv : Opens netrw
+<leader>rw : Opens netrw
 
+# Telescope & Harpooon stuff
 <leader>ff : Opens telescope
-<leader>fg : Live grep
-<leader> fb : Opens buffers
-<leader> fh : Opens help tags
+<leader>gf : Git Files. Only show current git project files
+<leader>ps : Project Search. Searches for specific text
+<leader>a : Add to Harpoon
+<leader>h : Toggle Harpoon Quick Menu
+<leader>1 : Jump to window 1 in Harpoon
+<leader>2 : Jump to window 2 in Harpoon
+<leader>3 : Jump to window 3 in Harpoon
+<leader>4 : Jump to window 4 in Harpoon
+
+# UndoTree
+<leader>u : Toggles UndoTree
 ```
