@@ -49,8 +49,24 @@ cmd + shift - tab : Sends currently focused window to second most recent space.
 ## Vim Shortcuts
 ```
 leader = " "
-
 <leader>rw : Opens netrw
+<leader>J/K : Moves highlighted text down / up respectively
+
+ctrl + d/u : Moves screen half up / down and centres the cursor
+
+J : Same functio as regular vim "J" but keeps cursor infront
+
+n/N : Cycles through (back/fwd) search terms and keeps cursor centred
+
+<leader>p : Preserves the copied buffer and sends the replaced text into void register
+
+<leader>y/Y : Yanks into system clipboard, seperate from internal yank
+
+<leader>d : Deletes to void register forever, instead of buffer. Both visual and normal mode
+
+<leader>f : Applies LSP formatting
+
+<leader>s : Replaces every instance of the word ur cursor is on
 
 # Telescope & Harpooon stuff
 <leader>ff : Opens telescope
