@@ -6,6 +6,7 @@ set PATH $HOME/.cargo/bin $PATH
 set PATH /Applications/CMake.app/Contents/bin $PATH
 # set NVM_DIR /Users/tejas/.nvm/ $PATH
 set -gx EDITOR nvim
+# set -gx VCPKG_ROOT $HOME/vcpkg $PATH
 
 # Tokyonight theme
 # TokyoNight Color Palette
