@@ -4,9 +4,10 @@ fish_vi_key_bindings
 set -gx PATH /usr/local/bin/ $PATH
 set PATH $HOME/.cargo/bin $PATH
 set PATH /Applications/CMake.app/Contents/bin $PATH
+set PATH /Users/tejas/Library/Python/3.9/bin $PATH
 # set NVM_DIR /Users/tejas/.nvm/ $PATH
 set -gx EDITOR nvim
-# set -gx VCPKG_ROOT $HOME/vcpkg $PATH
+set -gx VCPKG_ROOT /Users/tejas/Library/vcpkg 
 
 # Tokyonight theme
 # TokyoNight Color Palette
@@ -53,6 +54,8 @@ alias venv "virtualenv"
 alias activate "source env/bin/activate.fish"
 alias nus "ssh gtejas@stu.comp.nus.edu.sg"
 alias lg "lazygit"
+alias pip "pip3"
+alias python "python3"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
