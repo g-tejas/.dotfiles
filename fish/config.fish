@@ -5,6 +5,7 @@ set -gx PATH /usr/local/bin/ $PATH
 set PATH $HOME/.cargo/bin $PATH
 set PATH /Applications/CMake.app/Contents/bin $PATH
 set PATH /Users/tejas/Library/Python/3.9/bin $PATH
+set PATH /Applications/Sublime\ Text.app/Contents/SharedSupport/bin $PATH
 # set NVM_DIR /Users/tejas/.nvm/ $PATH
 set -gx EDITOR nvim
 set -gx VCPKG_ROOT /Users/tejas/Library/vcpkg 
@@ -56,6 +57,8 @@ alias nus "ssh gtejas@stu.comp.nus.edu.sg"
 alias lg "lazygit"
 alias pip "pip3"
 alias python "python3"
+alias ceemake "cmake -B build/ -S . -DCMAKE_TOOLCHAIN_FILE=/Users/tejas/Library/vcpkg/scripts/buildsystems/vcpkg.cmake"
+alias cld "rm -rf *"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
