@@ -40,4 +40,5 @@ end)
 
 vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 
-
+-- Opens lazygit within nvim
+vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>")

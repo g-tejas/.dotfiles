@@ -24,6 +24,9 @@ return require('packer').startup(function(use)
     use('mbbill/undotree')
     use('theprimeagen/harpoon')
     -- use('tpope/vim-fugitive') Using lazygit instead
+    
+    -- Git stuff
+    use('kdheepak/lazygit.nvim')
 
     -- Autoclose braces
     use ('m4xshen/autoclose.nvim')
