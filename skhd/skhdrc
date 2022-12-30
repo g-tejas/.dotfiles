@@ -3,7 +3,7 @@
 # cmd - escape : pmset displaysleepnow
 
 # ====== Launch Commands ======
-
+cmd - escape : pmset displaysleepnow
 
 # ====== Resize Mode ======
 # Set resize mode border color
