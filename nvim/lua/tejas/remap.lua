@@ -42,3 +42,8 @@ vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left>
 
 -- Opens lazygit within nvim
 vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>")
+
+-- MAKE IT RAIN
+vim.keymap.set("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")
+vim.keymap.set("n", "<leader>gol", "<cmd>CellularAutomaton game_of_life<CR>")
+
