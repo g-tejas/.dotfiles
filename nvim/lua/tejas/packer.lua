@@ -59,5 +59,10 @@ return require('packer').startup(function(use)
             {'rafamadriz/friendly-snippets'},
         }
     }
+
+    -- Commenting out stuff
+    use 'numToStr/Comment.nvim'
+
+    -- Useless stuff
     use 'eandrju/cellular-automaton.nvim'
 end)

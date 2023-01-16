@@ -32,7 +32,7 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 vim.keymap.set("n", "Q", "<nop>")
 
 -- Applies LSP formatting ?
-vim.keymap.set("n", "<leader>f", function() 
+vim.keymap.set("n", "<leader>f", function()
     vim.lsp.buf.format()
 end)
 
@@ -47,3 +47,5 @@ vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>")
 vim.keymap.set("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")
 vim.keymap.set("n", "<leader>gol", "<cmd>CellularAutomaton game_of_life<CR>")
 
+-- Cargo Stuff
+vim.keymap.set("n", "<leader>r", ":!cargo run<CR>")
