@@ -16,26 +16,24 @@ window:
 # Font Customization
 font:
   normal:
-    family: UbuntuMono Nerd Font Mono
+    family: FiraCode Nerd Font
     style: Regular
   bold:
-    family: UbuntuMono Nerd Font Mono
+    family: FiraCode Nerd Font
     style: Bold
   italic:
-    family: UbuntuMono Nerd Font Mono
+    family: FiraCode Nerd Font
     style: Italic
   bold_italic:
-    family: UbuntuMono Nerd Font Mono
+    family: FiraCode Nerd Font 
     style: Bold Italic
-  size: 25
+  size: 20
   offset:
     x: 0
     y: 0
   glyph_offset:
     x: 0
     y: 0
-  debug:
-    persistent_logging: false
   #draw_bold_text_with_bright_colors: true
 
 
