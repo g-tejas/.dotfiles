@@ -7,16 +7,19 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    -- Aesthetics
     use 'folke/tokyonight.nvim'
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 
+    -- Navigation
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
+    use('theprimeagen/harpoon')
 
     -- Treesitter stuff
     use {
@@ -28,14 +31,15 @@ return require('packer').startup(function(use)
     }
     use('nvim-treesitter/playground')
     use('mbbill/undotree')
-    use('theprimeagen/harpoon')
-    -- use('tpope/vim-fugitive') Using lazygit instead
 
     -- Git stuff
     use('kdheepak/lazygit.nvim')
 
     -- Autoclose braces
     use ('m4xshen/autoclose.nvim')
+
+    -- Commenting out stuff
+    use 'numToStr/Comment.nvim'
 
     -- LSP
     use {
@@ -60,8 +64,8 @@ return require('packer').startup(function(use)
         }
     }
 
-    -- Commenting out stuff
-    use 'numToStr/Comment.nvim'
+    -- VimTex and Markdown related
+    use 'lervag/vimtex'
 
     -- Useless stuff
     use 'eandrju/cellular-automaton.nvim'
