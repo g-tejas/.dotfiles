@@ -1,6 +1,7 @@
 set fish_greeting "morning slut"
 fish_vi_key_bindings
 
+
 set -gx PATH /usr/local/bin/ $PATH
 set PATH $HOME/.cargo/bin $PATH
 set PATH /Applications/CMake.app/Contents/bin $PATH
@@ -9,6 +10,7 @@ set PATH /Applications/Sublime\ Text.app/Contents/SharedSupport/bin $PATH
 # set NVM_DIR /Users/tejas/.nvm/ $PATH
 set -gx EDITOR nvim
 set -gx VCPKG_ROOT /Users/tejas/Library/vcpkg 
+zoxide init fish --cmd z  | source 
 
 # Tokyonight theme
 # TokyoNight Color Palette
