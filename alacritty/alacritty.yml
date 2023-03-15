@@ -1,13 +1,13 @@
 # Window Customization
 window:
-  opacity: 0.9
+  opacity: 1.0
   dimensions:
     columns: 80
     lines: 30
   padding:
     x: 15
     y: 15
-  decorations: buttonless #Still won't show in a window manger, but will in a desktop environment
+  # decorations: buttonless #Still won't show in a window manger, but will in a desktop environment
   startup_mode: Maximized
   scrolling:
     history: 10000
