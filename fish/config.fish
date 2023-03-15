@@ -53,15 +53,20 @@ set -g fish_pager_color_selected_background --background=$selection
 # aliases
 alias vi "nvim"
 alias la "ls -A"
-alias venv "virtualenv"
-alias activate "source env/bin/activate.fish"
+# alias activate "source env/bin/activate.fish"
 alias nus "ssh gtejas@stu.comp.nus.edu.sg"
 alias lg "lazygit"
 alias pip "pip3"
 alias python "python3"
-alias ceemake "cmake -B build/ -S . -DCMAKE_TOOLCHAIN_FILE=/Users/tejas/Library/vcpkg/scripts/buildsystems/vcpkg.cmake"
-alias cld "rm -rf *"
+# Aliases to active venvs
+alias activate="source ~/.pyenv/versions/env/bin/activate.fish"
 
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
+# setup pyenv
+eval "$(pyenv init -)"
+
+# if status is-interactive
+# 	# Commands to run in interactive sessions can go here
+#
+# 	# Autostart Zellij
+#     eval (zellij setup --generate-auto-start fish | string collect)
+# end
