@@ -89,8 +89,11 @@ sketchybar --add item clock right                        \
            --add item battery right                      \
            --set battery script="$PLUGIN_DIR/battery.sh" \
                          update_freq=10                  \
-           --subscribe battery system_woke
-
+           --subscribe battery system_woke \
+           --add item wifi right                               \
+           --set wifi    script="$PLUGIN_DIR/wifi.sh"          \
+                         icon=直                               \
+           --subscribe wifi wifi_change                        \
 ##### Finalizing Setup #####
 # The below command is only needed at the end of the initial configuration and
 # should never be run in an item script.
