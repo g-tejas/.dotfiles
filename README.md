@@ -83,6 +83,12 @@ n/N : Cycles through (back/fwd) search terms and keeps cursor centred
 <leader>u : Toggles UndoTree
 ```
 
+## Applications
+I take my productivity very seriously and hence, have curated a set of tools that
+will help me achieve almost anything within a few keystrokes / gestures (trackpad).
+
+- [BetterTouchTool](https://folivora.ai/)
+- 
 
 ## HomeBrew
 ```
