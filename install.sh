@@ -17,10 +17,9 @@ rm -f "$HOME/.tmux.conf"
 echo "Linking $DOTFILES_DIR/tmux/.tmux.conf → $HOME/.tmux.conf"
 ln -sf "$DOTFILES_DIR/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
-# ~/.tmux
-rm -rf "$HOME/.tmux"
-echo "Linking $DOTFILES_DIR/tmux/.tmux → $HOME/.tmux"
-ln -sf "$DOTFILES_DIR/tmux/.tmux" "$HOME/.tmux"
+echo "Copying popup.sh → $HOME/tmux_popup.sh"
+cp "$DOTFILES_DIR/tmux/popup.sh" "$HOME/tmux_popup.sh"
+
 
 echo "✅ All dotfiles linked forcefully."
 
