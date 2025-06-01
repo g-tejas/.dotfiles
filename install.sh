@@ -20,6 +20,8 @@ ln -sf "$DOTFILES_DIR/tmux/.tmux.conf" "$HOME/.tmux.conf"
 echo "Copying popup.sh → $HOME/tmux_popup.sh"
 cp "$DOTFILES_DIR/tmux/popup.sh" "$HOME/tmux_popup.sh"
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux source ~/.tmux.conf
 
 echo "✅ All dotfiles linked forcefully."
 
